@@ -39,11 +39,11 @@ for ligne in lignes:
   
     titre = ligne[2]
     
-    nom = (ligne[1] + ligne[0])
+    nom = (ligne[1] + " " + ligne[0])
     
-    nbPages = ligne(5)
+    nbPages = ligne[5]
     
-    if "Theses" in ligne(6):
+    if "Theses" in ligne[6]:
       type = "La thèse"
     else:
       type = "Le mémoire"
