@@ -45,6 +45,8 @@ for ligne in lignes:
     
     if "Theses" in ligne[6]:
       type = "La thèse"
+    elif "Ph" in ligne[6]:
+      type = "La thèse"
     else:
       type = "Le mémoire"
     
